@@ -163,8 +163,6 @@
 					$("#" + form_id).find($('.ajax-radio .btn')).removeClass('active-icon active');
 					$("#" + form_id).find("input[type='checkbox']").attr('checked', false);
 					$("#" + form_id).find($('.ajax-checkbox .btn')).removeClass('active-icon active');
-					$("#" + form_id).find("select").prop('selectedIndex',0);
-					$("#" + form_id).find("select[multiple]").prop('selectedIndex',-1);	
 							
 				}				
 				
